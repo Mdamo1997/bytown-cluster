@@ -1,0 +1,3 @@
+Q1: A new running copy appeared both times due to self healing. Docker swarm and K3s maintain a minimum number of running copies specified by the user.
+Q2: Docker swarm is easier to configure and manage. K3s is also easier to configure and is also less demanding than a full Kubernetes.
+Q3: The page never went down because of the rolling update technique. The pods were replaced gradually ensuring the service never goes down. 
